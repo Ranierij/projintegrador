@@ -1,0 +1,25 @@
+Cadastro
+---------
+ID (PK)
+Nome
+Email
+Senha
+DataNascimento
+
+Menu
+---------
+ID (PK)
+QuantidadeML
+
+Relatorio
+---------
+ID (PK)
+ID_Cadastro (FK)
+Data
+QuantidadeConsumidaML
+
+LembreteInteligente
+-------------------
+ID (PK)
+ID_Cadastro (FK)
+IntervaloTempo
